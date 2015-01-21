@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lightbox Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/lightbox.css"/>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="lightbox" class="not-loading">
+        <h1>Super Simple Lightbox Demo</h1>
+        <ul class="collection">
+            <!-- Photos -->
+        </ul>
+        <h1 class="loading hide">Loading...</h1>
+        <h1 class="error hide"></h1>
+    </div>
+    <div style="text-align:center; padding-bottom:100px;margin-left: 45%;">
+        <div class="morebox"><a>Load More</a></div>
+    </div>
+
+    <div id="lightbox-super-container" class="lightbox-overlay lightbox-overlay-fixed" style="width: auto; height: auto;">
+        <div class="lightbox-wrap lightbox-opened" style="height: auto; position: absolute; overflow: visible;">
+            <div class="lightbox-skin" style="padding: 15px 15px 10px; width: auto; height: auto;">
+                <div class="lightbox-outer">
+                    <div class="lightbox-inner" style="overflow: visible;">
+                        <img id="lightbox-super-image" class="lightbox-image" src="" alt="">
+                        <div id="lightbox-super-title" style="padding-top: 5px;"></div>
+                    </div>
+                    <a title="Previous" class="lightbox-nav lightbox-prev"><span></span></a>
+                    <a title="Next" class="lightbox-nav lightbox-next"><span></span></a>
+                </div>
+                <a title="Close" class="lightbox-item lightbox-close"></a>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- #/wrapper -->
+
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+<script type="text/javascript" src="js/http.js"></script>
+<script type="text/javascript" src="js/flickr.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+</body>
+</html>
