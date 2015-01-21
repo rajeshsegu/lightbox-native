@@ -164,6 +164,10 @@ body {
     max-height: 100%;
 }
 
+.collection{
+    margin-left: 40px;
+}
+
 /*Controls*/
 
 .lightbox-close,
